@@ -24,11 +24,11 @@ Prototype of Agar.io utilizing websockets to connect client with the server
 
 ## Install
 
-``` $ git clone https://github.com/Victor-Tilheri/orbs```
+```bash $ git clone https://github.com/Victor-Tilheri/orbs```
 
-``` $ npm install ```
+```bash $ npm install ```
 
-``` $ npm start ```
+```bash $ npm start ```
 
 ---
 
