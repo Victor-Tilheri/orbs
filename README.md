@@ -30,6 +30,8 @@ $ git clone https://github.com/Victor-Tilheri/orbs
 $ npm install
 
 $ npm start
+```
+
 ---
 
 Developed by Victor Tilheri
