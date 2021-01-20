@@ -1,2 +1,17 @@
 # orbs
-Prototype of Agar.io utilizing Node.js, Express and SocketIO
+
+## About
+
+Prototype of Agar.io utilizing websockets to connect client with the server
+
+## Pre-visualization
+<img src="#"/>
+
+## Technologies
+
+- Node
+- Express
+- SocketIO
+- HTML
+- CSS
+- Javascript
