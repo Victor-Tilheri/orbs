@@ -2,7 +2,7 @@
 
 ## About
 
-Prototype of Agar.io utilizing websockets to connect client with the server and an javascript framework to draw using canvas from HTML5
+Prototype of Agar.io utilizing websockets to connect client with the server and an javascript framework to draw using canvas from HTML5.
 
 ---
 
