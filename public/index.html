@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Orbs</title>
+        <link rel="stylesheet" type="text/css" href="index-style.css">
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="img/logo.png" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="lib/p5.min.js"></script>
+        <script src="joingame.js"></script>
+        <script src="player.js"></script>
+        <script src="sketch.js"></script>
+    </head>
+    <body>
+        <script>
+            function copyToClipboard() {
+                var copyText = document.getElementById("roomIdTxt");
+                copyText.removeAttribute("disabled");
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                document.execCommand("copy");
+                document.getSelection().removeAllRanges();
+                copyText.setAttribute("disabled", "disabled");
+            }
+        </script>
+        <div id="roomIdBox" style="display: none;">
+            <button onclick="copyToClipboard()">Copiar ID da sala</button>
+            <input type="text" id="roomIdTxt" value="room-0000" disabled>
+        </div>
+        <div id="logo">
+            <img id="logoImg" src="img/logo.png">
+            <h1 id="logoTxt">Orbs</h1>
+            <form id="joinForm" action="#">
+                <input id="nameInpt" type="text" placeholder="Digite seu nome aqui" autofocus autocomplete="off">
+                <table id="joinTable">
+                    <tr>
+                        <th>
+                            <select id="serverSlct" disabled>
+                                <option value="sa">Servidor Sul-Americano</option>
+                                <option value="na">Servidor Norte-Americano</option>
+                                <option value="eu">Servidor Europeu</option>
+                                <option value="as">Servidor Asiático</option>
+                            </select>
+                        </th>
+                        <th>
+                            <input id="roomIdInpt" type="text" placeholder="ID da sala" title="Pode deixar em branco!" autocomplete="off">
+                        </th>
+                    </tr>
+                </table>
+                
+                <input id="playBtn" type="submit" value="Jogar">
+            </form>
+        </div>
+        
+    </body>
+</html>
