@@ -7,7 +7,8 @@ Prototype of Agar.io utilizing websockets to connect client with the server and 
 ---
 
 ## Pre-visualization
-<img src="#"/>
+Player movement and orb absorving mechanics<br>
+<img src="hhttps://media.giphy.com/media/aUaawV2xmp0TwAq7E6/giphy.gif"/><br>
 
 ---
 
