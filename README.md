@@ -13,6 +13,9 @@ Player movement and orb absorving mechanics<br>
 Player absorving another player feature<br>
 <img src="https://media.giphy.com/media/94k7EsEi7N3T3kJKAg/giphy.gif"/><br>
 
+Differents players perspectives<br>
+<img src="https://media.giphy.com/media/vnnT7bHBKtB6iccRPm/giphy.gif"/><br>
+
 ---
 
 ## Technologies
